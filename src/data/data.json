@@ -1,0 +1,20 @@
+{
+  "tr": {
+    "hero": {
+      "greeting": "Merhaba 👋",
+      "name": "Ben Elif",
+      "title": "Frontend Developer",
+      "desc": "Modern arayüzler geliştiriyorum.",
+      "cta": "İletişime geç"
+    }
+  },
+  "en": {
+    "hero": {
+      "greeting": "Hi 👋",
+      "name": "I'm Elif",
+      "title": "Frontend Developer",
+      "desc": "I build modern interfaces.",
+      "cta": "Contact me"
+    }
+  }
+}

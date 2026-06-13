@@ -1,15 +1,27 @@
+import Header from "./components/sections/Header";
+import Hero from "./components/sections/Hero";
+import Skills from "./components/sections/Skills";
+import Profile from "./components/sections/Profile";
+import Projects from "./components/sections/Projects";
+import Footer from "./components/sections/Footer";
+import TestAPI from "./components/TestAPI";
+
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center 
-                    bg-white text-black 
-                    dark:bg-black dark:text-white">
+    <div className="flex flex-col min-h-screen">
 
-      <h1 className="text-3xl font-bold">
-        Tailwind Çalışıyor 🎉
-      </h1>
-<button onClick={() => document.documentElement.classList.toggle("dark")}>
-  Toggle
-</button>
+      <Header />
+
+      <main className="flex-1">
+        <Hero />
+        <Skills />
+        <Profile />
+        <Projects />
+      </main>
+
+      <Footer />
+
+      <TestAPI />
     </div>
   );
 }

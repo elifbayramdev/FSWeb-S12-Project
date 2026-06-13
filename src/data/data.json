@@ -1,120 +1,127 @@
 {
   "tr": {
-  "hero": {
-    "greeting": "Merhaba 👋",
-    "desc": "Ben Elif. Full-stack geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünleri geliştirebilirim. Tanışalım!",
-    "image": "src/assets/profile.png"
-  },
-"skillsSection": {
-  "title": "Yetenekler"
-},
-  "skills": [
-    { "name": "JAVASCRIPT", "icon": "src/assets/js.png" },
-    { "name": "REACT", "icon": "src/assets/react.svg" },
-    { "name": "REDUX", "icon": "src/assets/redux.svg" },
-    { "name": "NODE", "icon": "src/assets/node.png" },
-    { "name": "VS CODE", "icon": "src/assets/vscode.png" },
-    { "name": "FIGMA", "icon": "src/assets/figma2.png" }
-  ],
-
-  "profile": {
-    "title": "Profil",
-    "info": [
-      { "label": "Doğum Tarihi", "value": "18.07.1998" },
-      { "label": "Şehir", "value": "Tekirdağ" },
-      { "label": "Eğitim", "value": "Sabancı Üniversitesi, 2024" },
-      { "label": "Tercih Edilen Rol", "value": "Frontend, UI" }
-    ],
-    "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
-  },
-
-  "projects": [
-    {
-      "title": "Rastgele Şakalar",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "tech": ["react", "vercel", "axios", "router"],
-      "image": "src/assets/project1.png"
+    "hero": {
+      "greeting": "Merhaba 👋",
+      "desc": "Ben Elif. Full-stack geliştiriciyim. Güçlü ve ölçeklenebilir frontend ürünleri geliştirebilirim. Tanışalım!",
+      "image": "/images/profile.png"
     },
-    {
-      "title": "Sıkıldın mı?",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "tech": ["react", "redux", "axios", "router", "vercel"],
-      "image": "src/assets/project2.png"
-    }
-  ],
-  "projectsSection": {
-  "title": "Projeler",
-  "viewGithub": "Github’da Gör",
-  "goApp": "Uygulamaya Git →"
-},
 
-  "footer": {
-  "workTogether": "Bir sonraki proje için birlikte çalışalım.",
-  "links": [
-    { "label": "Github", "url": "#", "color": "text-[#1769FF]" },
-    { "label": "Personal Blog", "url": "#" },
-    { "label": "LinkedIn", "url": "#", "color": "text-[#0077B5]" },
-    { "label": "Email", "url": "#", "color": "text-[#AF0C48]" }
-  ]
-}
-},
+    "skillsSection": {
+      "title": "Yetenekler"
+    },
+
+    "skills": [
+      { "name": "JAVASCRIPT", "icon": "/images/js.png" },
+      { "name": "REACT", "icon": "/images/react.svg" },
+      { "name": "REDUX", "icon": "/images/redux.svg" },
+      { "name": "NODE", "icon": "/images/node.png" },
+      { "name": "VS CODE", "icon": "/images/vscode.png" },
+      { "name": "FIGMA", "icon": "/images/figma2.png" }
+    ],
+
+    "profile": {
+      "title": "Profil",
+      "info": [
+        { "label": "Doğum Tarihi", "value": "18.07.1998" },
+        { "label": "Şehir", "value": "Tekirdağ" },
+        { "label": "Eğitim", "value": "Sabancı Üniversitesi, 2024" },
+        { "label": "Tercih Edilen Rol", "value": "Frontend, UI" }
+      ],
+      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit..."
+    },
+
+    "projects": [
+      {
+        "title": "Rastgele Şakalar",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "tech": ["react", "vercel", "axios", "router"],
+        "image": "/images/project1.png"
+      },
+      {
+        "title": "Sıkıldın mı?",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "tech": ["react", "redux", "axios", "router", "vercel"],
+        "image": "/images/project2.png"
+      }
+    ],
+
+    "projectsSection": {
+      "title": "Projeler",
+      "viewGithub": "Github’da Gör",
+      "goApp": "Uygulamaya Git →"
+    },
+
+    "footer": {
+      "workTogether": "Bir sonraki proje için birlikte çalışalım.",
+      "links": [
+        { "label": "Github", "url": "#", "color": "text-[#1769FF]" },
+        { "label": "Personal Blog", "url": "#" },
+        { "label": "LinkedIn", "url": "#", "color": "text-[#0077B5]" },
+        { "label": "Email", "url": "#", "color": "text-[#AF0C48]" }
+      ]
+    }
+  },
 
   "en": {
-  "hero": {
-    "greeting": "Hello 👋",
-    "desc": "I’m Elif. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
-    "image": "src/assets/profile.png"
-  },
-"skillsSection": {
-  "title": "Skills"
-},
-  "skills": [
-    { "name": "JAVASCRIPT", "icon": "src/assets/js.png" },
-    { "name": "REACT", "icon": "src/assets/react.svg" },
-    { "name": "REDUX", "icon": "src/assets/redux.svg" },
-    { "name": "NODE", "icon": "src/assets/node.png" },
-    { "name": "VS CODE", "icon": "src/assets/vscode.png" },
-    { "name": "FIGMA", "icon": "src/assets/figma2.png" }
-  ],
-
-  "profile": {
-    "title": "Profile",
-    "info": [
-      { "label": "Date of Birth", "value": "18.07.1998" },
-      { "label": "City", "value": "Tekirdağ" },
-      { "label": "Education", "value": "Sabancı University, 2024" },
-      { "label": "Preferred Role", "value": "Frontend, UI" }
-    ],
-    "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
-  },
-
-  "projects": [
-    {
-      "title": "Random Jokes",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "tech": ["react", "vercel", "axios", "router"],
-      "image": "src/assets/project1.png"
+    "hero": {
+      "greeting": "Hello 👋",
+      "desc": "I’m Elif. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+      "image": "/images/profile.png"
     },
-    {
-      "title": "Are You Bored?",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "tech": ["react", "redux", "axios", "router", "vercel"],
-      "image": "src/assets/project2.png"
+
+    "skillsSection": {
+      "title": "Skills"
+    },
+
+    "skills": [
+      { "name": "JAVASCRIPT", "icon": "/images/js.png" },
+      { "name": "REACT", "icon": "/images/react.svg" },
+      { "name": "REDUX", "icon": "/images/redux.svg" },
+      { "name": "NODE", "icon": "/images/node.png" },
+      { "name": "VS CODE", "icon": "/images/vscode.png" },
+      { "name": "FIGMA", "icon": "/images/figma2.png" }
+    ],
+
+    "profile": {
+      "title": "Profile",
+      "info": [
+        { "label": "Date of Birth", "value": "18.07.1998" },
+        { "label": "City", "value": "Tekirdağ" },
+        { "label": "Education", "value": "Sabancı University, 2024" },
+        { "label": "Preferred Role", "value": "Frontend, UI" }
+      ],
+      "about": "Lorem ipsum, dolor sit amet consectetur adipisicing elit..."
+    },
+
+    "projects": [
+      {
+        "title": "Random Jokes",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "tech": ["react", "vercel", "axios", "router"],
+        "image": "/images/project1.png"
+      },
+      {
+        "title": "Are You Bored?",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "tech": ["react", "redux", "axios", "router", "vercel"],
+        "image": "/images/project2.png"
+      }
+    ],
+
+    "projectsSection": {
+      "title": "Projects",
+      "viewGithub": "View on Github",
+      "goApp": "Go to app →"
+    },
+
+    "footer": {
+      "workTogether": "Let’s work together on your next product.",
+      "links": [
+        { "label": "Github", "url": "#", "color": "text-[#1769FF]" },
+        { "label": "Personal Blog", "url": "#" },
+        { "label": "LinkedIn", "url": "#", "color": "text-[#0077B5]" },
+        { "label": "Email", "url": "#", "color": "text-[#AF0C48]" }
+      ]
     }
-  ],
-  "projectsSection": {
-  "title": "Projects",
-  "viewGithub": "View on Github",
-  "goApp": "Go to app →"
-},
-"footer": {
-  "workTogether": "Let’s work together on your next product.",
-  "links": [
-    { "label": "Github", "url": "#", "color": "text-[#1769FF]" },
-    { "label": "Personal Blog", "url": "#" },
-    { "label": "LinkedIn", "url": "#", "color": "text-[#0077B5]" },
-    { "label": "Email", "url": "#", "color": "text-[#AF0C48]" }
-  ]
-}
-}
+  }
 }
